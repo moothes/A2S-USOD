@@ -1,5 +1,6 @@
 # A2S-USOD
 
+In this work, we propose a new framework for Unsupervised Salient Object Detection task. 
 Code for our work "[Activation to Saliency: Forming High-Quality Labels for Unsupervised Salient Object Detection](https://arxiv.org/abs/2112.03650)".  
 ***Code will be released upon publication.***
 
