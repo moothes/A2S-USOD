@@ -11,8 +11,8 @@ Here we provide the generated salency maps for our method in Google Drive: [Pseu
 
 Thanks for citing our work
 ```xml
-@article{zhou2021activation,
-  title={Activation to Saliency: Forming High-Quality Labels for Unsupervised Salient Object Detection},
+@article{a2s,
+  title={Activation to Saliency: Forming High-Quality Labels for Completely Unsupervised Salient Object Detection},
   author={Zhou, Huajun and Chen, Peijia and Yang, Lingxiao and Lai, Jianhuang and Xie, Xiaohua},
   journal={arXiv preprint arXiv:2112.03650},
   year={2021}
