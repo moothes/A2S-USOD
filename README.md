@@ -3,7 +3,7 @@
 In this work, we propose a new framework for Unsupervised Salient Object Detection task.  
 Details are illustrated in our paper: "[Activation to Saliency: Forming High-Quality Labels for Unsupervised Salient Object Detection](https://arxiv.org/abs/2112.03650)".  
 
-## Update
+## Update 2022/06/05
 Code is Available now!  
 Our code is based on our [SOD benchmark](https://github.com/moothes/SALOD).  
 Pretrained weights: [Stage1-moco](https://drive.google.com/file/d/18Ne-48WeZL-SlpG0bE80f0p8zqkpeVpG/view?usp=sharing), [Stage1-sup](https://drive.google.com/file/d/1hFvNRYN7fJd2EvRHhuHzzH853tVBjdlJ/view?usp=sharing), [Stage2-moco](https://drive.google.com/file/d/1-9UpIjj4iXw35pKIDQdbIl2wqmbXFQYO/view?usp=sharing), [Stage2-sup](https://drive.google.com/file/d/1XS73VArH5yumaer0BLCJD7A_SsMztDCV/view?usp=sharing).
