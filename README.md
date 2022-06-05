@@ -5,7 +5,7 @@ Details are illustrated in our paper: "[Activation to Saliency: Forming High-Qua
 Contact: [zhouhj26@mail2.sysu.edu.cn](zhouhj26@mail2.sysu.edu.cn).
 
 ## Update 2022/06/05
-Code is Available now!  
+Code is available now!  
 Our code is based on our [SOD benchmark](https://github.com/moothes/SALOD).  
 Pretrained backbone: [MoCo-v2](https://github.com/facebookresearch/moco).  
 Our trained weights: [Stage1-moco](https://drive.google.com/file/d/18Ne-48WeZL-SlpG0bE80f0p8zqkpeVpG/view?usp=sharing), [Stage1-sup](https://drive.google.com/file/d/1hFvNRYN7fJd2EvRHhuHzzH853tVBjdlJ/view?usp=sharing), [Stage2-moco](https://drive.google.com/file/d/1-9UpIjj4iXw35pKIDQdbIl2wqmbXFQYO/view?usp=sharing), [Stage2-sup](https://drive.google.com/file/d/1XS73VArH5yumaer0BLCJD7A_SsMztDCV/view?usp=sharing).  
