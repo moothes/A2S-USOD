@@ -16,12 +16,14 @@ Here we provide the generated salency maps of our method in Google Drive: [Pseud
  ## Usage
  
  ```
- # model_name: lower-cased method name. E.g. poolnet, egnet, gcpa, dhsnet or minet.
+ # Stage 1
  python3 train_stage1.py mnet --gpus=0 
+ python3 test.py mnet --weight=path_to_weight --gpus=0 --crf --save
+ # Copy the generated pseudo labels to dataset folder
  
+ # Stage 2
  python3 train_stage2.py cornet --gpus=0
- 
- python3 test.py [mnet/cornet] --gpus=0 --weight=path_to_weight [--save] [--crf]
+ python3 test.py cornet --weight=path_to_weight --gpus=0 [--save] [--crf]
  
  # To evaluate generated maps:
  python3 eval.py --pre_path=path_to_maps
