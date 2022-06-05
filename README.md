@@ -5,6 +5,7 @@ Details are illustrated in our paper: "[Activation to Saliency: Forming High-Qua
 
 ## Update
 Code is Available now!  
+Our code is based on our [SOD benchmark](https://github.com/moothes/SALOD).  
 Pretrained weights: [Stage1-moco](https://drive.google.com/file/d/18Ne-48WeZL-SlpG0bE80f0p8zqkpeVpG/view?usp=sharing), [Stage1-sup](https://drive.google.com/file/d/1hFvNRYN7fJd2EvRHhuHzzH853tVBjdlJ/view?usp=sharing), [Stage2-moco](https://drive.google.com/file/d/1-9UpIjj4iXw35pKIDQdbIl2wqmbXFQYO/view?usp=sharing), [Stage2-sup](https://drive.google.com/file/d/1XS73VArH5yumaer0BLCJD7A_SsMztDCV/view?usp=sharing).
 
 Here we provide the generated salency maps of our method in Google Drive: [Pseudo labels (Stage 1)](https://drive.google.com/file/d/1SaoX2EMUKn22lJtSQeQvCJUHjedrV3hR/view?usp=sharing) and [Saliency maps (Stage 2)](https://drive.google.com/file/d/1wQGDq7jBrzt5sqXgs7dM66iMga4H9n0b/view?usp=sharing), or download from [Baidu Disk](https://pan.baidu.com/s/1diqoo98ISjZs1smsL9t-RA) [g6xb].   
