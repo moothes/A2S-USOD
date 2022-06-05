@@ -1,6 +1,6 @@
 # A2S-USOD
 
-In this work, we propose a new framework for Unsupervised Salient Object Detection task.  
+In this work, we propose a new framework for Unsupervised Salient Object Detection (USOD) task.  
 Details are illustrated in our paper: "[Activation to Saliency: Forming High-Quality Labels for Unsupervised Salient Object Detection](https://arxiv.org/abs/2112.03650)".  
 
 ## Update 2022/06/05
