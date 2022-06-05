@@ -9,6 +9,20 @@ Pretrained weights: [Stage1-moco](https://drive.google.com/file/d/18Ne-48WeZL-Sl
 
 Here we provide the generated salency maps of our method in Google Drive: [Pseudo labels (Stage 1)](https://drive.google.com/file/d/1SaoX2EMUKn22lJtSQeQvCJUHjedrV3hR/view?usp=sharing) and [Saliency maps (Stage 2)](https://drive.google.com/file/d/1wQGDq7jBrzt5sqXgs7dM66iMga4H9n0b/view?usp=sharing), or download from [Baidu Disk](https://pan.baidu.com/s/1diqoo98ISjZs1smsL9t-RA) [g6xb].   
 
+ ## Usage
+ 
+ ```
+ # model_name: lower-cased method name. E.g. poolnet, egnet, gcpa, dhsnet or minet.
+ python3 train_stage1.py mnet --gpus=0 
+ 
+ python3 train_stage2.py cornet --gpus=0
+ 
+ python3 test.py [mnet/cornet] --gpus=0 --weight=path_to_weight [--save] [--crf]
+ 
+ # To evaluate generated maps:
+ python3 eval.py --pre_path=path_to_maps
+ ```
+ 
 
 ## Results
 ![Result](https://github.com/moothes/A2S-USOD/blob/main/result.PNG)
