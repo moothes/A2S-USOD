@@ -38,9 +38,6 @@ def test_model(model, test_sets, config, epoch=None, saver=None):
             Y = model(image.cuda())
             Y['final'] = nn.functional.interpolate(Y['final'], size=out_shape, mode='bilinear')
             pred = Y['final'].sigmoid_().cpu().data.numpy()[0, 0]
-            
-            pred = (pred * 255).astype(np.uint8)
-            thre, pred = cv2.threshold(pred, 0, 255, cv2.THRESH_OTSU)
             pred, gt = normalize_pil(pred, gt)
             
             if config['crf']:
