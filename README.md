@@ -37,11 +37,13 @@ Here we provide the generated saliency maps of our method in Google Drive: [Pseu
 
 Thanks for citing our work
 ```xml
-@article{zhou2022activation,
-  title={Activation to Saliency: Forming High-Quality Labels for Unsupervised Salient Object Detection},
+@ARTICLE{zhou2023a2s1,
+  title={Activation to Saliency: Forming High-Quality Labels for Unsupervised Salient Object Detection}, 
   author={Zhou, Huajun and Chen, Peijia and Yang, Lingxiao and Xie, Xiaohua and Lai, Jianhuang},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2022},
-  publisher={IEEE}
-}
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  year={2023},
+  volume={33},
+  number={2},
+  pages={743-755},
+  doi={10.1109/TCSVT.2022.3203595}}
 ```
